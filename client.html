@@ -1,0 +1,309 @@
+<HTML>
+<meta charset="utf-8">
+<title> FAIRMONT HOTEL </title>
+
+<style>
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px;
+  background-color: #859DBB;
+  width: 100%;
+  height: 20px;
+  padding-right: 145px;}
+a:link {
+  color: #BDD1F0;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Snell Roundhand", Times, Serif;}
+a:visited {
+  color: #C4DDF2}
+a:hover {
+  -webkit-transform: scale(1.4);}
+.wrapper {
+  position: relative;
+  background-color: #859DBB;
+  width: 100%;
+  height: 50px;}
+.content {
+  margin-top: -15px;
+  margin-bottom: 0px;
+
+}
+#footp{
+	margin-top: -30px;
+	color: ivory;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Snell Roundhand", Times, Serif;
+	text-align: center;
+}
+h4{
+  font-size: 20px;
+}
+h3{
+  font-size: 20px;
+}
+table{
+	background-color:rgba(0, 0, 0, 0.5);
+}
+#login{
+ 
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  background-color:grey;
+  width: 700px;
+  height: 500px;
+}
+label{
+  font-size: 20px;
+}
+input{
+  border-radius: 5px;
+  background-color: transparent;
+  color:white;
+}
+body{
+  margin:0;
+  color:#6a6f8c;
+  
+  font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+  width:100%;
+  margin:auto;
+  max-width:525px;
+  min-height:670px;
+  position:relative;
+  background:url(fairmont.jpg) no-repeat;
+  background-size: 600px 700px;
+  }
+.login-html{
+  width:100%;
+  height:100%;
+  position:absolute;
+  padding:90px 70px 50px 70px;
+  background:rgba(40,57,101,.9);
+
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position:absolute;
+  -webkit-transform:rotateY(180deg);
+        
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  -webkit-transition:all .4s linear;
+  transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+  display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+  text-transform:uppercase;
+}
+.login-html .tab{
+  font-size:22px;
+  margin-right:15px;
+  padding-bottom:5px;
+  margin:0 15px 10px 0;
+  display:inline-block;
+  border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+  color:#fff;
+  border-color:#1161ee;
+}
+.login-form{
+  min-height:345px;
+  position:relative;
+ 
+}
+.login-form .group{
+  margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+  width:100%;
+  color:#fff;
+  display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+  border:none;
+  padding:15px 20px;
+  border-radius:25px;
+  background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+  text-security:circle;
+  -webkit-text-security:circle;
+}
+.login-form .group .label{
+  color:#aaa;
+  font-size:12px;
+}
+.login-form .group .button{
+  background:#1161ee;
+}
+.login-form .group label .icon{
+  width:15px;
+  height:15px;
+  border-radius:2px;
+  position:relative;
+  display:inline-block;
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+  content:'';
+  width:10px;
+  height:2px;
+  background:#fff;
+  position:absolute;
+  -webkit-transition:all .2s ease-in-out 0s;
+  transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+  left:3px;
+  width:5px;
+  bottom:6px;
+ 
+}
+.login-form .group label .icon:after{
+  top:6px;
+  right:0;
+ 
+}
+.login-form .group .check:checked + label{
+  color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+  background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+  -webkit-transform:scale(1) rotate(45deg);
+          transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+  -webkit-transform:scale(1) rotate(-45deg);
+          transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+  -webkit-transform:rotate(0);
+          transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+  -webkit-transform:rotate(0);
+          transform:rotate(0);
+}
+
+.hr{
+  height:2px;
+  margin:60px 0 50px 0;
+  background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+  text-align:center;
+}
+</style>
+<body background="xinature.com-beaches-sand-lagoon-beach-ocean-tropical-sea-tahiti-island-regis-hotel-paradise-atoll-bora-wallpaper-hd-download-1920x1200.jpg">
+<header>
+  <nav>
+    <a href="#" class='active' style="width: 100px; color:white;">
+      <a href="Айсулу.html">Главная</a>
+      <a href="page2.html">Информация</a>
+      <a href="page3.html">Сеть отелей</a>
+      <a href="page4.html">Номера</a>
+      <a href="menu.html">Развлечения</a>
+      <a href="page6.html">Контакты</a>
+    </a>
+  </nav>
+</header>
+
+ <div class="login-wrap">
+  <div class="login-html">
+    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Войти</label>
+    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Зарегистрироваться</label>
+    <div class="login-form">
+      <div class="sign-in-htm">
+        <div class="group">
+          <label for="user" class="label">Имя пользователя</label>
+          <input id="user" type="text" class="input">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">Пароль</label>
+          <input id="pass" type="password" class="input" data-type="password">
+        </div>
+        <div class="group">
+          <input id="check" type="checkbox" class="check" checked>
+          <label for="check"><span class="icon"></span> Оставаться в сети</label>
+        </div>
+        <div class="group">
+          <a href="client_main.html">
+            <input type="submit" class="button" value="Войти">
+          </a>
+        </div>
+        <div class="hr"></div>
+        <div class="foot-lnk">
+          <a href="#forgot">Забыли пароль?</a>
+        </div>
+      </div>
+      <div class="sign-up-htm">
+        <div class="group">
+          <label for="user" class="label">Имя пользователя</label>
+          <input id="user" type="text" class="input">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">Пароль</label>
+          <input id="pass" type="password" class="input" data-type="password">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">Повторите пароль</label>
+          <input id="pass" type="password" class="input" data-type="password">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">Email адрес</label>
+          <input id="pass" type="text" class="input">
+        </div>
+        <div class="group">
+          <a href="client_main.html">
+            <input type="submit" class="button" value="Зарегистрироваться">
+          </a>
+        </div>
+        <div class="hr"></div>
+        <div class="foot-lnk">
+          <label for="tab-1"><a href="#">Есть аккаунт?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="wrapper">
+  <div class="content">
+    <hr/>
+    <IMG id="onee" src="logoSDU.png" width="50" height="40"></IMG>
+    <p id="footp">
+      This is the mid project from WEB. Made by Aisulu Bekbossynova 2EN04A
+    </p>
+    </div>
+</div>
+</body>
+</html>

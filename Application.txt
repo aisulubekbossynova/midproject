@@ -1,0 +1,19 @@
+<table border="1" width="1000" align="center" cellpadding="15" cellspacing="10">
+<tr align="left"><th><font color="ivory">
+<a href="room1.html"><IMG src="номер6.jpg" width="470" height="330" align='left'></IMG></a>
+<a href="room2.html"><IMG src="номер1.jpg" width="470" height="330" align='right'></IMG></a>
+<a href="room3.html"><IMG src="номер2.jpg" width="470" height="330" align='right'></IMG></a>
+<a href="room4.html"><IMG src="номер3.jpg" width="470" height="330" align='left'></IMG></a>
+<a href="room5.html"><IMG src="номер4.jpg" width="470" height="330" align='right'></IMG></a>
+<a href="room6.html"><IMG src="номер5.jpg" width="470" height="330" align='left'></a>
+<a href="room1.html"><IMG src="номер6.jpg" width="470" height="330" align='left'></IMG></a>
+<a href="room2.html"><IMG src="номер1.jpg" width="470" height="330" align='right'></IMG></a>
+<a href="room3.html"><IMG src="номер2.jpg" width="470" height="330" align='right'></IMG></a>
+<a href="room1.html"><IMG src="номер6.jpg" width="470" height="330" align='left'></IMG></a>
+<a href="room2.html"><IMG src="номер4.jpg" width="470" height="330" align='right'></IMG></a>
+<a href="room3.html"><IMG src="номер5.jpg" width="470" height="330" align='right'></IMG></a>
+<a href="room1.html"><IMG src="номер6.jpg" width="470" height="330" align='left'></IMG></a>
+<a href="room2.html"><IMG src="номер1.jpg" width="470" height="330" align='right'></IMG></a>
+<a href="room3.html"><IMG src="номер2.jpg" width="470" height="330" align='right'></IMG></a>
+<a href="room3.html"><IMG src="номер5.jpg" width="470" height="330" align='right'></IMG></a>
+</table>
